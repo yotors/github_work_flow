@@ -31,8 +31,8 @@ jobs:
       
       - name: Install npm
       - uses: actions/setup-node@4
-          with:
-            node-version: 20
+        with:
+          node-version: 20
 
       - name: Install html hint 
         run: npm install -g htmlhint
