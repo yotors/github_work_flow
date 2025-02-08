@@ -31,6 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Test Finished
-        run: |
+        ru n: |
           echo Run ended successfully,
           echo test,Finished.
