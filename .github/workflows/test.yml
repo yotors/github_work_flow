@@ -29,6 +29,9 @@ jobs:
       - name: Test started
         run: echo Testing github workflow!
 
+      - name: Test the html with html hint
+        run: htmlhint "index.html"
+
       # Runs a set of commands using the runners shell
       - name: Test Finished
         run: |
