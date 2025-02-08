@@ -29,7 +29,7 @@ jobs:
       - name: Test started
         run: echo Testing github workflow!
       
-      - name: Install npm
+      # - name: Install npm
       - uses: actions/setup-node@4
         with:
           node-version: 20
