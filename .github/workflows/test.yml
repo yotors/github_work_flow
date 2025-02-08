@@ -28,6 +28,14 @@ jobs:
       # Runs a single command using the runners shell
       - name: Test started
         run: echo Testing github workflow!
+      
+      - name: Install npm
+      - uses: actions/setup-node@4
+          with:
+            node-version: 20
+
+      - name: Install html hint 
+        run: npm install -g htmlhint
 
       - name: Test the html with html hint
         run: htmlhint "index.html"
